@@ -1,0 +1,170 @@
+header{
+    margin: 0px;
+    padding: 80px;
+    border: 0px;
+    background-image:url(/imagenes/227784-P1PRTC-941-min.jpg);
+    background-size: cover;
+    text-align: left;
+    font-style: italic;
+    font-size: 31px;
+    color: #a88a26;
+    }
+h2{
+    margin: 35px;
+    border: 25px;
+    font-size: 25px;
+}
+.iconoInicio{
+    display: flex;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 25px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: linear-gradient(315deg, #b83c26 0%, #a88a26 74%);
+}
+
+/* CARDS */
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 25%;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.cardImg {
+    width: 80%;
+}
+
+.cardPrice {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonCTA {
+    margin: 10px 0;
+    background-color: rgb(216, 77, 77);
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonCTA:hover {
+    background-color: rgb(184, 64, 64);
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+
+
+/* CART */
+
+.cartContainer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cartRow {
+    border: 1px solid gray;
+    width: 70%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartHeader {
+    font-size: 20px;
+    border: none;
+}
+
+.cartImg {
+    width: 15%;
+}
+
+.cartImg img {
+    width: 100%;
+}
+
+.cartTitle {
+    width: 35%;
+}
+
+.cartDesc {
+    width: 25%;
+}
+
+.cartPrice {
+    width: 25%;
+}
+.vaciarC {
+    margin: 25px;
+}
+.enviarCarrito{
+    margin: 30px;
+}
+
+.botoM{
+    background-color: rgb(93, 248, 62);
+    }
+.botonDos{
+    background-color: #ee0e06;
+}
+
+/* FORM */
+
+.formContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.formContainer form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+}
+
+.formContainer input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.formContainer input[type=submit] {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(89, 168, 89);
+    color: white;
+}
